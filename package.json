@@ -1,0 +1,23 @@
+{
+  "name": "kuijs",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/ivandevp/kuijs",
+  "author": "ivandevp <medinadiazivan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "demo1": "node ./demo/hellowold/index.js",
+    "demo2": "node ./demo/logger/index.js",
+    "demo3": "node ./demo/with-router/index.js",
+    "test": "./node_modules/.bin/jest --watch"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "koa-router": "^7.4.0"
+  }
+}
